@@ -1,6 +1,6 @@
 
 
-![Logo](images\screenshots\logo.png)
+![Logo](images/logo.png)
 
 
 # Armizan Limited 
@@ -14,15 +14,15 @@ I am using basic HTML, CSS maybe some Bootstrap and Javascript
 ## Screenshots
 
 this a screeenshot of the home homescreen on loading the website 
-![App Screenshot](images\screenshots\home.png)
-![App Screenshot](images\screenshots\about.png)
+![App Screenshot](images/screenshots/home.png)
+![App Screenshot](images/screenshots.about.png)
 
 i have used bootstrap in setting up the navnar mostly and the footer
 
 The website is responsive as it can adapt to any screen size
 
-![App Screenshot](images\screenshots\responsive.png)
-![App Screenshot](images\screenshots\responsive2.pnd)
+![App Screenshot](images/screenshots/responsive.png)
+![App Screenshot](images/screenshots/responsive2.png)
 
 ## Images
 Most of my images and banner i have made them using [Canva](https://www.canva.com/) it is a great tool for creating beautufil banners or pictures to make your websites look good
