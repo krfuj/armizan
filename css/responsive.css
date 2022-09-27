@@ -13,6 +13,7 @@
     display: none;
   }
 
+ 
 
   .service_section {
     background-size: cover;
@@ -44,6 +45,7 @@
     top: 0;
     transform: scale(1.7);
   }
+
 
 
   .hero_area {
