@@ -24,6 +24,8 @@
 
   }
 
+
+
   .slider_img-box img {
     z-index: 1;
     position: relative;
@@ -45,6 +47,22 @@
     top: 0;
     transform: scale(1.7);
   }
+
+  .nav-item-home{
+    margin-left: 0px;
+  }
+
+  .nav-item-contact{
+    margin-right: 0rem;
+    
+  }
+
+  .heading{
+    
+    padding-right: 0rem;
+  
+  }
+
 
 
 
@@ -68,7 +86,7 @@
 
 @media (max-width: 768px) {
 
-
+ 
 
 
   .slider_section .carousel_btn-container {
@@ -164,14 +182,156 @@
   }
 }
 
+@media screen and (min-width: 20em) {
+  .box-container {
+      grid-template-areas:
+      "one"
+      "two"
+      "three"
+      "four"
+      "five"
+      "six";
+      
+  }
+  .projects .box-container .box .image {
+    height: 10rem;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  .box-container{
+    padding: 0.5rem;
+  }
+
+  .row {
+    grid-template-areas:
+    "one"
+    "two";
+  }
+
+  row2 {
+    grid-template-areas:
+    "one"
+    "two"
+    "four"
+    "three"
+    "five"
+    "six";
+  }
+
+ 
+}
+
+@media screen and (min-width: 33em) {
+  .box-container {
+      grid-template-areas:
+      "one"
+      "two"
+      "three"
+      "four"
+      "five"
+      "six";
+  }
+  .projects .box-container .box .image {
+    height: 10rem;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  row2 {
+    grid-template-areas:
+    "one"
+    "two"
+    "four"
+    "three"
+    "five"
+    "six";
+  }
+}
+
+@media screen and (min-width: 38em) {
+  .box-container{
+    grid-template-areas:
+     'one two'
+     'three four'
+     'five six';
+  }
+  .projects .box-container .box .image {
+    height: 10rem;
+    overflow: hidden;
+  }
+
+  row2 {
+    grid-template-areas:
+    "one two"
+    "three four"
+    "five six";
+  }
+}
+
+@media screen and (min-width: 54em) {
+  .box-container {
+      grid-template-areas:
+      "one two three "
+      "four five six";
+  }
+
+  .nav-item-contact{
+    margin-right: 0rem;
+    
+  }
+  .me-2{
+    margin: auto;
+    width: 5rem;
+  }
+  .row {
+    grid-template-areas:
+    "one two ";
+  }
+
+  .row2 {
+    grid-template-areas:
+    "one two two"
+    "three three four"
+    "six six five";
+  }
+}
+
 @media (max-width: 480px) {}
 
 @media (max-width: 420px) {}
 
-@media (max-width: 360px) {}
+@media (min-width: 1000px) {
+  
+  .share{
+    display: none;
+  }
+}
 
 @media (min-width: 1200px) {
   .container {
     max-width: 1170px;
   }
+  .box-container {
+    grid-template-areas:
+    "one two three"
+    "four five six";
+}
+
+.row {
+  grid-template-areas:
+  "one two ";
+}
+.heading{
+    
+  padding-right: 0rem;
+
+}
+
+.row2 {
+  grid-template-areas:
+  "one two two"
+  "three three four"
+  "six six five";
+}
+
+
 }
