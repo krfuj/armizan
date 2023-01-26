@@ -202,7 +202,7 @@
     padding: 0.5rem;
   }
 
-  .row {
+  .row3 {
     grid-template-areas:
     "one"
     "two";
@@ -282,7 +282,7 @@
     margin: auto;
     width: 5rem;
   }
-  .row {
+  .row3 {
     grid-template-areas:
     "one two ";
   }
@@ -316,7 +316,7 @@
     "four five six";
 }
 
-.row {
+.row3 {
   grid-template-areas:
   "one two ";
 }

@@ -1107,7 +1107,7 @@ lottie-player{
 }
 /* about section */
 
-.row{
+.row3{
   display: grid;
   gap: 1rem;
   grid-template-areas:
